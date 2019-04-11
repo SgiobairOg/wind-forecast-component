@@ -1,19 +1,17 @@
-# Stencil App Starter
+# Wind Forecast
 
-Stencil is a compiler for building fast web apps using Web Components.
+Web Component built with Stencil.js to display information about wind speed and direction.
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+**This component is not intended to be a stable release**
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
-
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
+Please contact me for the current status before using this in a project.
 
 ## Getting Started
 
-To start a new project using Stencil, clone this repo to a new directory:
+To use this repository clone it to your computer, run:
 
 ```bash
-npm init stencil app
+npm install
 ```
 
 and run:
@@ -39,3 +37,13 @@ To run the unit tests and watch for file changes during development, run:
 ```
 npm run test.watch
 ```
+
+## Stencil App Starter
+
+Stencil is a compiler for building fast web apps using Web Components.
+
+Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+
+Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+
+Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
